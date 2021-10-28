@@ -13,7 +13,7 @@
                 />
 
                 <p class="mt-4">
-                    <button @click.prevent="clearSignature" class="btn btn-default btn-danger cursor-pointer text-white ml-auto">Clear</button>
+                    <button @click.prevent="clearSignature" class="btn btn-default btn-danger cursor-pointer text-white ml-auto">{{__('Clear')}}</button>
                 </p>
             </component>
 
@@ -22,7 +22,7 @@
                     <img :src="field.value">
                 </div>
 
-                <button :class="{'flatten': field.value}" class="edit-in-modal-button btn btn-default btn-primary cursor-pointer text-white ml-auto">Edit</button>
+                <button :class="{'flatten': field.value}" class="edit-in-modal-button btn btn-default btn-primary cursor-pointer text-white ml-auto">{{__('Edit')}}</button>
             </a>
         </template>
     </default-field>

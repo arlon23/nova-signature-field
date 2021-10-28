@@ -7,7 +7,7 @@
                 <button
                     @click.prevent="$emit('update:showModal', false)"
                     class="btn btn-default btn-primary"
-                >Continue</button>
+                >{{__('Continue')}}</button>
             </div>
 
             <div class="p-4">
